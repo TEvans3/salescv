@@ -24,7 +24,10 @@
   "navigation": [
     {
       "group": "",
-      "pages": ["introduction", "deal-index"]
+      "pages": [
+        "introduction",
+        "deal-index"
+      ]
     },
     {
       "group": "Deal Case Studies",
