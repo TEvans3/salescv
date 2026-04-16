@@ -1,6 +1,12 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "Tony Evans",
+  "favicon": "https://www.google.com/s2/favicons?domain=linkedin.com&sz=32",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373"
+  },
   "navigation": [
     {
       "group": "",
