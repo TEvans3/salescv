@@ -31,10 +31,10 @@
             "group": "Deal Case Studies",
             "pages": [
               "deals/twilio-strategic-1-2m",
-              "deals/segment-consumer-reports",
               "deals/segment-kraken",
               "deals/segment-elf-beauty",
-              "deals/2600hz-enterprise"
+              "deals/2600hz-enterprise",
+              "deals/segment-consumer-reports"
             ]
           }
         ]
