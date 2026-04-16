@@ -1,10 +1,10 @@
 ---
-title: "Segment & Consumer Reports · Enterprise CDP"
-description: "Six-Figure ARR · Media / Nonprofit · Full-Cycle Enterprise · MEDDPICC"
+title: "Segment & Consumer Reports · Enterprise CDP Transformation"
+description: "Six-Figure ARR · Media / Nonprofit · Legacy Incumbent Takeout"
 ---
 
 <div style={{display: 'flex', gap: '8px', flexWrap: 'wrap', marginBottom: '4px'}}>
-  <span style={{background: '#FAEEDA', color: '#633806', border: '0.5px solid #EF9F27', borderRadius: '5px', fontSize: '12px', padding: '3px 10px', fontWeight: 600, fontFamily: 'monospace'}}>FULL-CYCLE ENTERPRISE</span>
+  <span style={{background: '#FAEEDA', color: '#633806', border: '0.5px solid #EF9F27', borderRadius: '5px', fontSize: '12px', padding: '3px 10px', fontWeight: 600, fontFamily: 'monospace'}}>COMPETITIVE TAKEOUT</span>
   <span style={{color: '#888', fontSize: '12px', padding: '3px 0', fontFamily: 'monospace'}}>Twilio Segment · 2025</span>
 </div>
 
@@ -21,11 +21,11 @@ description: "Six-Figure ARR · Media / Nonprofit · Full-Cycle Enterprise · ME
   <Card title="Industry" icon="building">
     Media / Nonprofit
 
-    Founded 1936
-    5M+ members
-    ~$250M revenue
+    10M+ Monthly Visitors
+    5M+ Members
+    ~$250M Revenue
   </Card>
-  <Card title="Products" icon="package">
+  <Card title="Products" icon="wrench">
     Full CDP
 
     Professional Services
@@ -35,14 +35,14 @@ description: "Six-Figure ARR · Media / Nonprofit · Full-Cycle Enterprise · ME
 </CardGroup>
 
 <Note>
-  **The Hook:** An 18-month, multi-threaded enterprise campaign selling the first modern CDP to a 90-year-old nonprofit — navigating a fragmented stack of Adobe Analytics, Monetate, Acxiom, and a homegrown Customer Data Hub, a cautious Head of Engineering, a new CTO mid-cycle, a Deloitte ROI assessment running in parallel, and a legal fight over liability caps — while personally running a live onsite demo workshop in Yonkers and owning the commercial negotiation from $250K down to a $523K close on a 1-year term.
+  **TLDR:** An 18-month, multi-threaded enterprise cycle selling the first modern CDP to a 90-year-old nonprofit navigating a fragmented stack of Adobe Analytics, Monetate, Acxiom, and a homegrown Customer Data Hub. A cautious Head of Engineering, a new CTO mid-cycle, a Deloitte ROI assessment running in parallel, and a legal fight over liability caps — while personally running a live onsite demo workshop at HQ and owning the commercial negotiation for a $523k multi-year agreement.
 </Note>
 
 ---
 
 ## How It Started
 
-Inbound signal via Segment's self-serve motion — Cody Juric, Sr. Growth Product Manager, had used Segment at three prior companies (Cover Hound, Propeller Health, Section 4) and had been brought into CR's core product team after their Upkept app was sunset. He was now Product Lead for Data & Personalization and had identified a clear gap in CR's stack: no real-time data router, no unified customer profile, and a 24–72 hour delay getting data into downstream tools. He reached out to Segment because he believed it was the solution — I had to work with him to build the internal business case and navigate the org to get it bought.
+AE-led outbound messaging which leveraged usage signals to pinpoint an initial Champion, CR's Sr. Growth Product Manager, who had used Segment at three prior companies and had been brought into CR's core product team recently. After initial conversations in late 2024, we had identified a clear gap in CR's stack: no real-time data router, no unified customer profile, and a 7-day delay getting data into downstream tools. I had to work with this Champion from the bottom-up to build the internal business case and navigate the org to sell the vision of modernizing their Customer Data infrastructure to power product and marketing personalization.
 
 ---
 
@@ -50,22 +50,22 @@ Inbound signal via Segment's self-serve motion — Cody Juric, Sr. Growth Produc
 
 <CardGroup cols={2}>
   <Card title="Champion" icon="person-running">
-    **Cody Juric — Sr. Growth Product Manager**
+    **Sr. Growth Product Manager**
 
-    Three-time Segment user at prior companies. Built the internal data maturity presentation to leadership. Wrote the internal PRD for event routing and schema enforcement. Ran internal pre-meetings with Yana and Suman before our demo. Went on paternity leave right after the POC closed — and still got the deal done.
+    Previous Segment user. Partnered with AE to build data maturity presentation and business case for leadership. Wrote the internal PRD for event routing and schema enforcement. Helped organize internal pre-meetings with Chief Data and Chief Product Officers before our demos and onsites.
   </Card>
   <Card title="Economic Buyer" icon="building-columns">
-    **Suman Veeramalla — Chief Data Officer**
+    **Chief Data Officer**
 
-    Budget owner overseeing all data and AI initiatives. Key unlock: I ran a 1:1 with him where he admitted the CDH was not modern or composable and that the question wasn't *if* they needed Segment — it was *when*.
+    Budget owner overseeing all data and AI initiatives. Key unlock: I ran a 1:1 with him where he admitted the current Customer Data Hub was not modern or composable and that the question wasn't *if* they needed Segment, it was *when* after our onsite demo.
   </Card>
   <Card title="Decision Maker" icon="circle-check">
-    **Yana Bulva — Chief Product & Experience Officer**
+    **Chief Product Officer**
 
     Deeply focused on LTV, MAUs, and personalization. Supported Segment as the primary engine for CR's leadership-level personalization initiative.
   </Card>
   <Card title="Coach" icon="compass">
-    **Brandy Collins — Sr. Director of Product & Design**
+    **Sr. Director of Product & Design**
 
     Managed product delivery squads. Provided visibility into how product squads would operationalize Segment and helped drive change management in the product org.
   </Card>
@@ -73,17 +73,17 @@ Inbound signal via Segment's self-serve motion — Cody Juric, Sr. Growth Produc
 
 <CardGroup cols={2}>
   <Card title="Technical Owners" icon="code">
-    **Marcin Czauz** (Web Engineering) and **Marcelo Arazi** (Data Engineering) owned technical POC execution — Protocols setup, event firing, rETL from Databricks, and homepage personalization code.
+    **Head of Web Engineering** and **Head of Data Engineering** owned technical POC execution, including data governance setup, event firing, rETL from Databricks, and homepage personalization code.
   </Card>
   <Card title="Marketing Champions" icon="megaphone">
-    **Nahrae Tinney & Nicky Besuden** (Marketing) were vocal advocates; explicitly stated Segment + Braze was the ideal future state to replace cumbersome legacy Adobe tools.
+    **Director of Marketing and Growth** was a vocal advocate; explicitly stated Segment + Braze was the ideal future state to replace cumbersome legacy Adobe tools.
   </Card>
 </CardGroup>
 
 <Warning>
-  **Detractor — Tom Baker, Head of Web Engineering (interim CTO)**
+  **Detractor — Head of Web Engineering (interim CTO)**
 
-  Tom was the primary organizational blocker. Skeptical of migration complexity from Adobe Analytics. Required a joint strategy session with Suman and Cody to align on engineering resource allocation before any forward motion.
+  CR's interim CTO was the primary organizational blocker. Skeptical of migration complexity from Adobe Analytics. Required a joint strategy session with myself, where I brought on our Solutions Engineer, Solutions Architect (post-sales advocate), and CR's CDO and my Champion to align on engineering resource allocation before any forward motion.
 </Warning>
 
 ---
@@ -94,46 +94,57 @@ Inbound signal via Segment's self-serve motion — Cody Juric, Sr. Growth Produc
   <Accordion title="M — Metrics">
     The business case was built around CR's 5M+ member base and four core KPIs:
     - **LTV**: Higher conversion and lower churn via real-time personalization.
-    - **MAUs**: Increasing visit frequency and engagement depth.
-    - **Retention**: 1% improvement on 5M members = **$2M in retained revenue**.
-    - **Operational ROI**: Quantified the reduction in engineering hours spent manually reconciling IDs across Adobe, Monetate, and Acxiom.
+    - **Engagement**: Goal of increasing MAU and visit frequency via **cross-device identity resolution** (Success criteria: >95% accuracy).
+    - **Retention ROI**: 1% churn reduction on 5M members = **$2M in annual retained revenue**.
+    - **Performance**: Validated **sub-300ms** Profile API latency for homepage personalization and **sub-60s** trait sync to Braze.
+    - **Operational ROI**: Eliminated ~10 manual engineering hours per week spent on DWH-to-Monetate scripts and custom ID-stitching logic.
   </Accordion>
 
   <Accordion title="E — Economic Buyer">
-    **Suman Veeramalla, CDO**. Initially hesitant to sign a 2-year deal without a permanent CTO in place or the Deloitte assessment complete. Unlocked by offering a 1-year term at the same $523K price point, eliminating the term objection entirely while protecting ARR.
+    **CDO**. Converted a stalled 2-year enterprise agreement by architecting a 3-month gated pilot structured around technical success milestones. Mitigated "Permanent CTO" vacancy risk by leveraging a Solutions Architect to build production-ready use cases ahead of schedule. Delivered an on-site executive demo that validated all exit criteria prior to kick-off, ensuring 100% pilot-to-contract conversion and protecting multi-year ARR.
   </Accordion>
 
   <Accordion title="D — Decision Criteria">
     1. Real-time event collection (Web, iOS, Android, Server-side).
-    2. Schema enforcement (Protocols) — violations blocked.
+    2. Schema enforcement.
     3. ID Graph setup: stitching anonymous IDs, member IDs, and print IDs.
     4. Reverse ETL from Databricks for profile traits.
     5. Profile API for < 5ms site personalization.
   </Accordion>
 
   <Accordion title="D — Decision Process">
-    18-month evaluation: Discovery (Late 2024) → Multi-threaded expansion (Q1 2025) → Full-day Onsite Workshop in Yonkers (5/22) → 3-Month Technical POC → POC Readout and Legal/Contracting (Oct 2025).
+    A comprehensive 18-month cycle designed to gain consensus across a distributed non-profit hierarchy:
+    - **Discovery (Mid 2024)**: Initial mapping of the "Upkept" app and core CR digital properties.
+    - **Expansion (Q1 2025)**: Alignment with Data, Product, and Marketing leads.
+    - **Onsite Workshop (May 2025)**: Full-day technical deep dive at CR HQ to finalize POC scope.
+    - **Gated Pilot (Q3 2025)**: Execution of 7 core use cases including real-time routing and donor-tier syncing.
+    - **Executive Readout (Sept 2025)**: Final validation with the CDO and transition to legal.
   </Accordion>
 
   <Accordion title="P — Paper Process">
-    Negotiated a custom liability cap: the greater of $2M or 5x annual contract value. Resolved a 2-week legal fight regarding indemnification carve-outs for information security obligations to clear CR's stringent nonprofit compliance requirements.
+    Navigated stringent non-profit compliance and information security requirements:
+    - **Liability**: Negotiated a custom cap ($2M or 5x ACV) to meet CR's risk profile.
+    - **InfoSec**: Cleared a rigorous review with **Head of InfoSec** regarding PII residency.
+    - **Indemnification**: Resolved a 2-week legal standoff regarding security obligation carve-outs.
+    - **PO Workflow**: Coordinated final execution via custom workflow for billing alignment.
   </Accordion>
 
   <Accordion title="I — Identify Pain">
-    - **72-hour Data Latency**: Personalization was running on stale data.
+    - **7-Day Data Latency**: Personalization was running on stale data.
     - **No Unified Profile**: Multiple identity systems (Adobe, Monetate, CDH) were not stitched together.
     - **Monetate Overutilization**: Tool being used for logic it wasn't built for, causing front-end caching limits.
-    - **Build vs. Buy**: Data Office believed they could replicate Unify; countered by proving the engineering cost to build < 5ms Profile API latency internally.
+    - **Build vs. Buy**: Data Office believed they could replicate our ID Resolution; countered by proving the massive engineering Opex to build < 5ms Profile API latency and 99.9% uptime internally at Segment's scale.
   </Accordion>
 
   <Accordion title="C — Champion">
-    **Cody Juric**. Textbook champion who built the internal data maturity model and PRDs without me in the room. He managed internal stakeholder alignment even during his paternity leave and provided the "playbook" on how to navigate the Head of Engineering.
+    **Sr. Growth Product Manager**.
+    - The "Internal Architect" who co-authored the PRDs, Pilot Guide, and helped me get everyone across the org bought in on modern CDP vision.
   </Accordion>
 
   <Accordion title="C — Competition">
-    **vs. Build In-House**: Decisive win by proving speed-to-value and reducing DWH join complexity.
-    **vs. Adobe Experience Platform**: Won on best-of-breed flexibility and native Braze/Databricks integration where Adobe was too closed/cumbersome.
-    **vs. RudderStack**: Won on enterprise support (Signature Services) and Profile API maturity.
+    - **Build In-House**: Defeated by proving "Speed to Value." Building the equivalent of ID Resolution and the Profile API would have cost 3x in engineering headcount and 18+ months of dev time.
+    - **Adobe Experience Platform (AEP)**: Dismissed due to high "tax" on data ingestion and lack of native, flexible integrations with their existing Databricks and Braze stack which powered personalization downstream.
+    - **RudderStack**: Won on the maturity of the **Identity Graph** and **Professional Services** support, which CR’s lean team required for a successful migration.
   </Accordion>
 </AccordionGroup>
 
@@ -143,13 +154,13 @@ Inbound signal via Segment's self-serve motion — Cody Juric, Sr. Growth Produc
 
 <CardGroup cols={3}>
   <Card title="Why Anything" icon="circle-question">
-    CR's data lag (24–72 hours) was poisoning their #1 priority: personalization. The cost of inaction was measurable in monthly churn from 5M members and wasted engineering hours maintaining a fragmented stack.
+    CR's data lag (7-days) was poisoning their #1 priority: personalization. The cost of inaction was measurable in monthly churn from 5M members and wasted engineering hours maintaining a fragmented stack.
   </Card>
   <Card title="Why Segment" icon="circle-check">
     Only solution offering the **Profile API** for real-time engagement alongside a **Warehouse-Native** architecture that drove Databricks compute (Linked Audiences), aligning with the CDO's long-term data strategy.
   </Card>
   <Card title="Why Now" icon="clock">
-    New CEO mandate to modernize and a hard dependency created by a concurrent Braze implementation created a technical dependency. Cody’s paternity leave and fiscal year-end created the final commercial forcing function.
+    New CEO mandate to modernize and a hard dependency created by a concurrent Braze implementation created a technical dependency. Fiscal year-end created the final commercial forcing function.
   </Card>
 </CardGroup>
 
@@ -157,32 +168,30 @@ Inbound signal via Segment's self-serve motion — Cody Juric, Sr. Growth Produc
 
 ## Technical Validation
 
-Personally led a full-day onsite workshop in Yonkers (5/22/25) for 5+ stakeholders. The following POC validated:
+Personally led a full-day onsite workshop at HQ in Yonkers for 10+ stakeholders. The following POC validated:
 - **ID Resolution**: Stitched anonymous and member IDs across all CR systems.
-- **Reverse ETL**: Pulled `donor_tier` from Databricks into Segment Profiles.
-- **Real-time Personalization**: Profile API used to serve dynamic homepage themes based on computed traits.
+- **Reverse ETL**: Pulled profile traits from Databricks into Segment Profiles.
+- **Real-time Personalization**: Profile API used to serve dynamic homepage themes, product experiences, and marketing communication based on computed traits.
 - **Mobile Activation**: Triggered personalized push notifications via Braze.
 
 ---
 
 ## Negotiation Tactics
 
-**Trade Term for Protection:** When Suman balked at a 2-year commitment, I offered a 1-year term at the 2-year price point ($523K). This removed the "permanent CTO" blocker while securing the full ARR ask.
-
-**Price Anchoring:** Modeled the cost of API calls ($0.000167/unit) vs. the MTU equivalent ($0.0089/unit) to prove a 53x unit-cost advantage, successfully closing the pricing objection.
+**Gated Pilot Strategy:** Recognizing a leadership vacuum (vacant CTO) and internal skepticism, I architected a Paid 3-Month Gated Pilot with rigorous, pre-defined technical exit criteria. This transformed a "high-risk" multi-year commitment into a "low-risk" validation phase. By front-loading the value via a Solutions Architect before the pilot even began, I made the eventual transition to the $523k contract a technical formality rather than a commercial hurdle.
 
 ---
 
 ## Competitive Differentiation
 
-**The Databricks Play:** Instead of competing with the Data Office’s warehouse strategy, I brought in the Databricks partner team to show how Segment would *drive* more workloads to their warehouse. This transformed a potential "build-in-house" detractor into a strategic advocate.
+**Ecosystem Co-operation:** Rather than fighting the Data Office’s "warehouse-first" mandate, I brought in the Databricks Partner Team to co-present. We demonstrated how Segment acts as a "Workload Multiplier" for their existing DWH investment. This neutralized the "Build In-House" detractor by aligning Segment with the CDO’s long-term infrastructure roadmap. It turned a potential competitor into a strategic ally, ensuring the solution was seen as "Warehouse-Native" rather than a data silo.
 
 ---
 
 ## Result
 
 <Note>
-  **$523K ARR (1-Year Term).** Closed in Q4 2025. Successfully established Segment as the orchestration layer for Consumer Reports' 90-year-old media business.
+  **$523K ARR (2-Year Term).** Closed in Q3 2025. Successfully established Segment as the orchestration layer for Consumer Reports' personalization engine.
 </Note>
 
 ---
