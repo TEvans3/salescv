@@ -96,7 +96,7 @@ Inbound signal via Segment's self-serve motion — Cody Juric, Sr. Growth Produc
   </Accordion>
 
   <Accordion title="E — Economic Buyer">
-    **Suman Veeramalla, CDO**. Initially hesitant to sign a 2-year deal without a permanent CTO in place or the Deloitte assessment complete. Unlocked by offering a 1-year term at the same $400K price point, eliminating the long-term commitment objection while protecting ARR.
+    **Suman Veeramalla, CDO**. Initially hesitant to sign a 2-year deal without a permanent CTO in place or the Deloitte assessment complete. Unlocked by offering a 1-year term at the same $400K price point, eliminating the term objection entirely while protecting ARR.
   </Accordion>
 
   <Accordion title="D — Decision Criteria">
@@ -108,4 +108,77 @@ Inbound signal via Segment's self-serve motion — Cody Juric, Sr. Growth Produc
   </Accordion>
 
   <Accordion title="D — Decision Process">
-    18-month evaluation: Discovery (Late 2024) → Multi
+    18-month evaluation: Discovery (Late 2024) → Multi-threaded expansion (Q1 2025) → Full-day Onsite Workshop in Yonkers (5/22) → 3-Month Technical POC → POC Readout and Legal/Contracting (Oct 2025).
+  </Accordion>
+
+  <Accordion title="P — Paper Process">
+    Negotiated a custom liability cap: the greater of $2M or 5x annual contract value. Resolved a 2-week legal fight regarding indemnification carve-outs for information security obligations to clear CR's stringent nonprofit compliance requirements.
+  </Accordion>
+
+  <Accordion title="I — Identify Pain">
+    - **72-hour Data Latency**: Personalization was running on stale data.
+    - **No Unified Profile**: Multiple identity systems (Adobe, Monetate, CDH) were not stitched together.
+    - **Monetate Overutilization**: Tool being used for logic it wasn't built for, causing front-end caching limits.
+    - **Build vs. Buy**: Data Office believed they could replicate Unify; countered by proving the engineering cost to build < 5ms Profile API latency internally.
+  </Accordion>
+
+  <Accordion title="C — Champion">
+    **Cody Juric**. Textbook champion who built the internal data maturity model and PRDs without me in the room. He managed internal stakeholder alignment even during his paternity leave and provided the "playbook" on how to navigate the Head of Engineering.
+  </Accordion>
+
+  <Accordion title="C — Competition">
+    **vs. Build In-House**: Decisive win by proving speed-to-value and reducing DWH join complexity.
+    **vs. Adobe Experience Platform**: Won on best-of-breed flexibility and native Braze/Databricks integration where Adobe was too closed/cumbersome.
+    **vs. RudderStack**: Won on enterprise support (Signature Services) and Profile API maturity.
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## The Three Whys
+
+<CardGroup cols={3}>
+  <Card title="Why Anything" icon="circle-question">
+    CR's data lag (24–72 hours) was poisoning their #1 priority: personalization. The cost of inaction was measurable in monthly churn from 5M members and wasted engineering hours maintaining a fragmented stack.
+  </Card>
+  <Card title="Why Segment" icon="circle-check">
+    Only solution offering the **Profile API** for real-time engagement alongside a **Warehouse-Native** architecture that drove Databricks compute (Linked Audiences), aligning with the CDO's long-term data strategy.
+  </Card>
+  <Card title="Why Now" icon="clock">
+    New CEO mandate to modernize and a hard dependency created by a concurrent Braze implementation created a technical dependency. Cody’s paternity leave and fiscal year-end created the final commercial forcing function.
+  </Card>
+</CardGroup>
+
+---
+
+## Technical Validation
+
+Personally led a full-day onsite workshop in Yonkers (5/22/25) for 5+ stakeholders. The following POC validated:
+- **ID Resolution**: Stitched anonymous and member IDs across all CR systems.
+- **Reverse ETL**: Pulled `donor_tier` from Databricks into Segment Profiles.
+- **Real-time Personalization**: Profile API used to serve dynamic homepage themes based on computed traits.
+- **Mobile Activation**: Triggered personalized push notifications via Braze.
+
+---
+
+## Negotiation Tactics
+
+**Trade Term for Protection:** When Suman balked at a 2-year commitment, I offered a 1-year term at the 2-year price point ($400K). This removed the "permanent CTO" blocker while securing the full ARR ask.
+
+**Price Anchoring:** Modeled the cost of API calls ($0.000167/unit) vs. the MTU equivalent ($0.0089/unit) to prove a 53x unit-cost advantage, successfully closing the pricing objection.
+
+---
+
+## Competitive Differentiation
+
+**The Databricks Play:** Instead of competing with the Data Office’s warehouse strategy, I brought in the Databricks partner team to show how Segment would *drive* more workloads to their warehouse. This transformed a potential "build-in-house" detractor into a strategic advocate.
+
+---
+
+## Result
+
+<Note>
+  **$400K ARR (1-Year Term).** Closed in Q4 2025. Successfully established Segment as the orchestration layer for Consumer Reports' 90-year-old media business.
+</Note>
+
+---
