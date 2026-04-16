@@ -1,5 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
+  "theme": "mint",
   "name": "Tony Evans — Enterprise AE",
   "favicon": "https://www.google.com/s2/favicons?domain=linkedin.com&sz=32",
   "colors": {
@@ -24,7 +25,10 @@
   "navigation": [
     {
       "group": "Introduction",
-      "pages": ["introduction", "deal-index"]
+      "pages": [
+        "introduction",
+        "deal-index"
+      ]
     },
     {
       "group": "Deal Case Studies",
