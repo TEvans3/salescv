@@ -21,8 +21,10 @@ description: "Six-Figure ARR · Media / Nonprofit · Legacy Incumbent Takeout"
   <Card title="Industry" icon="building">
     Media / Nonprofit
 
-    10M+ Monthly Visitors
-    5M+ Members
+    10M+ Mo. Traffic
+    
+    5M+ Subscribers
+    
     ~$250M Revenue
   </Card>
   <Card title="Products" icon="wrench">
@@ -35,14 +37,14 @@ description: "Six-Figure ARR · Media / Nonprofit · Legacy Incumbent Takeout"
 </CardGroup>
 
 <Note>
-  **TLDR:** An 18-month, multi-threaded enterprise cycle selling the first modern CDP to a 90-year-old nonprofit navigating a fragmented stack of Adobe Analytics, Monetate, Acxiom, and a homegrown Customer Data Hub. A cautious Head of Engineering, a new CTO mid-cycle, a Deloitte ROI assessment running in parallel, and a legal fight over liability caps — while personally running a live onsite demo workshop at HQ and owning the commercial negotiation for a $523k multi-year agreement.
+  **TLDR:** Orchestrated a **$523K ARR** competitive takeout of legacy Adobe infrastructure by converting a stalled 18-month cycle into a **high-velocity, gated pilot**. By aligning with the CDO’s "Warehouse-Native" vision and partnering with Databricks, we neutralized "Build vs. Buy" inertia and solved a critical **7-day data latency** issue. This established Segment as the real-time identity and orchestration layer for CR’s **5M+ subscribers**, projected to retain **$2M in annual revenue** through 1:1 cross-device personalization.
 </Note>
 
 ---
 
 ## How It Started
 
-AE-led outbound messaging which leveraged usage signals to pinpoint an initial Champion, CR's Sr. Growth Product Manager, who had used Segment at three prior companies and had been brought into CR's core product team recently. After initial conversations in late 2024, we had identified a clear gap in CR's stack: no real-time data router, no unified customer profile, and a 7-day delay getting data into downstream tools. I had to work with this Champion from the bottom-up to build the internal business case and navigate the org to sell the vision of modernizing their Customer Data infrastructure to power product and marketing personalization.
+AE-led outbound messaging which leveraged hiring signals to pinpoint an initial Champion, CR's Sr. Growth Product Manager, who had used Segment at three prior companies and had been brought into CR's core product team recently. After initial conversations in mid-2024, we had identified a clear gap in CR's stack: no real-time data router, no unified customer profile, and a 7-day delay getting data into downstream tools. I had to work with this Champion from the bottom-up to build the internal business case and navigate the org to sell the vision of modernizing their Customer Data infrastructure to power product and marketing personalization.
 
 ---
 
@@ -101,15 +103,16 @@ AE-led outbound messaging which leveraged usage signals to pinpoint an initial C
   </Accordion>
 
   <Accordion title="E — Economic Buyer">
-    **CDO**. Converted a stalled 2-year enterprise agreement by architecting a 3-month gated pilot structured around technical success milestones. Mitigated "Permanent CTO" vacancy risk by leveraging a Solutions Architect to build production-ready use cases ahead of schedule. Delivered an on-site executive demo that validated all exit criteria prior to kick-off, ensuring 100% pilot-to-contract conversion and protecting multi-year ARR.
+    **CDO**. 
+      - Converted a stalled 2-year enterprise agreement by architecting a 3-month gated pilot structured around technical success milestones. Mitigated "Permanent CTO" vacancy risk by leveraging a Solutions Architect to build production-ready use cases ahead of schedule. Delivered an on-site executive demo that validated all exit criteria prior to kick-off, ensuring 100% pilot-to-contract conversion and protecting multi-year ARR.
   </Accordion>
 
   <Accordion title="D — Decision Criteria">
-    1. Real-time event collection (Web, iOS, Android, Server-side).
-    2. Schema enforcement.
-    3. ID Graph setup: stitching anonymous IDs, member IDs, and print IDs.
-    4. Reverse ETL from Databricks for profile traits.
-    5. Profile API for < 5ms site personalization.
+    - **Real-time event collection** (Web, iOS, Android, Server-side).
+    - **Schema enforcement** across multiple sources.
+    - **Custom ID Graph setup**: stitching anonymous IDs, member IDs, and print IDs.
+    - **Reverse ETL** from Databricks for profile traits.
+    - **Profile API** for < 5ms site personalization.
   </Accordion>
 
   <Accordion title="D — Decision Process">
@@ -154,13 +157,13 @@ AE-led outbound messaging which leveraged usage signals to pinpoint an initial C
 
 <CardGroup cols={3}>
   <Card title="Why Anything" icon="circle-question">
-    CR's data lag (7-days) was poisoning their #1 priority: personalization. The cost of inaction was measurable in monthly churn from 5M members and wasted engineering hours maintaining a fragmented stack.
+    CR's **data lag** (7-days) was poisoning their **#1 priority: personalization**. The cost of inaction was measurable in monthly churn from 5M members and wasted engineering hours maintaining a fragmented stack.
   </Card>
   <Card title="Why Segment" icon="circle-check">
-    Only solution offering the **Profile API** for real-time engagement alongside a **Warehouse-Native** architecture that drove Databricks compute (Linked Audiences), aligning with the CDO's long-term data strategy.
+    Only solution offering the **Profile API**, **ID Resolution** and **Audience Orchestration** for real-time engagement alongside a **Warehouse-Native** architecture that united their entire stack to deliver personalization, aligning with the CDO's long-term data strategy.
   </Card>
   <Card title="Why Now" icon="clock">
-    New CEO mandate to modernize and a hard dependency created by a concurrent Braze implementation created a technical dependency. Fiscal year-end created the final commercial forcing function.
+    **New CEO** mandate to modernize and a hard dependency created by a concurrent Braze implementation created a technical dependency. Fiscal year-end created the final commercial forcing function.
   </Card>
 </CardGroup>
 
