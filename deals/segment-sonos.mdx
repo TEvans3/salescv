@@ -1,6 +1,6 @@
 ---
-title: "Segment × Sonos · Competitive RFP Win"
-description: "$656K ARR · Consumer Electronics / D2C · Three-Way Competitive RFP"
+title: "Segment × Sonos · Enterprise RFP Win"
+description: "$656K ARR · Consumer Electronics · Competitive Takeout"
 ---
 
 <div style={{display: 'flex', gap: '8px', flexWrap: 'wrap', marginBottom: '4px'}}>
@@ -8,160 +8,127 @@ description: "$656K ARR · Consumer Electronics / D2C · Three-Way Competitive R
   <span style={{color: '#888', fontSize: '12px', padding: '3px 0', fontFamily: 'monospace'}}>Twilio Segment · 2023</span>
 </div>
 
-<img noZoom src="https://logos-world.net/wp-content/uploads/2021/10/Sonos-Emblem.png" alt="Sonos Logo" width="200" style={{ marginBottom: '20px' }} />
+<img noZoom src="https://logos-world.net/wp-content/uploads/2021/10/Sonos-Emblem.png" alt="Sonos Logo" width="150" style={{ marginBottom: '20px' }} />
 
 # Sonos
 ---
 
 <CardGroup cols={3}>
   <Card title="Deal Size" icon="dollar-sign">
-    $656K ARR
+    **$656,400 ARR**
     
-    2-Year Term
+    Multi-Year Growth Path
     
-    5M MTUs
+    5M MTUs · Premium+
   </Card>
   <Card title="Company" icon="building">
-    Consumer Electronics
+    **Consumer Electronics**
     
-    $1.75B+ Revenue; NYSE: SONO
+    $1.75B+ Revenue
     
-    16.3M Households
+    14M Households
   </Card>
   <Card title="Products" icon="wrench">
-    Connections + Protocols
+    **Full Stack CDP**
     
-    Engage + Professional Services
+    Engage + Protocols
     
-    Premium Support
+    BCS + Professional Services
   </Card>
 </CardGroup>
 
 <Note>
-**TLDR:** Won a three-way competitive RFP against Salesforce and a legacy reseller (Chord) by building a \$7M value-at-stake model using Sonos' own operational data. By reframing Segment as a "Warehouse-Native" accelerator for Snowflake rather than a competitor to it, we cleared the CIO's primary technical hurdle. This implementation serves as the data foundation for a board-level mandate to convert 5.6M single-product households into multi-product households, targeting a \$5B revenue opportunity.
+**Executive Summary:** Successfully led a three-way competitive RFP against Salesforce Data Cloud and a legacy Segment reseller (Chord) to establish Segment as the unified data foundation for Sonos. By architecting a **\$7.9M Value-at-Stake model** validated by Sonos' own Data Insights team, I reframed the CDP from a "marketing tool" to a "warehouse-native infrastructure play." This deal directly supports Sonos’ board-level mandate to convert 5.6M single-product households into multi-product brand loyalists, targeting a **\$5B incremental revenue opportunity**.
 </Note>
 
 ---
 
-## How It Started
+## The Strategic Motion
 
-AE-led outbound leveraged hiring signals and existing \$3K Twilio infrastructure spend to identify Sonos as a high-fit target. Discovery revealed a fragmented stack (Salesforce Marketing/Commerce Cloud + Snowflake) with no unified profile or real-time routing layer. I structured the discovery as a co-investment, gaining access to the Director of Data Insights and the CIO by committing to build an auditable value model using Sonos' specific conversion and AOV figures rather than industry benchmarks.
+The evaluation was triggered by a "Warehouse-First" mandate. Sonos was migrating to **Snowflake + dbt** as their central data lake but lacked a real-time ingestion and identity layer. I positioned Segment as the "Workload Multiplier" for Snowflake, ensuring their high-value data science models could actually be activated in real-time across **Braze**, **Salesforce Marketing Cloud**, and their **Global App ecosystem**.
 
 ---
 
-## Stakeholder Map
+## Stakeholder Map & Multi-Threading
 
 <CardGroup cols={2}>
-  <Card title="Champion" icon="person-running">
-    **CRM Manager**
-    
-    Technical advocate who co-authored the internal brief to map directly to Segment's architecture. Surfaced the primary threat (Chord Commerce) and pre-briefed leadership before all executive sessions.
-  </Card>
   <Card title="Economic Buyer" icon="building-columns">
-    **CIO**
+    **Chief Commercial Officer (Deidre Findlay)**
     
-    Focused on infrastructure and data governance. Approved the deal after we validated a 10:1 ROI and proved Segment would accelerate, not replace, their Snowflake investment.
+    Owner of the \$5B household expansion goal. I aligned Segment's "Profile API" to her vision of sub-millisecond personalization in the Sonos App.
   </Card>
-  <Card title="Decision Maker" icon="circle-check">
-    **Director of Global CRM**
+  <Card title="Technical EB" icon="microchip">
+    **CIO / VP of IT**
     
-    Senior champion who framed the initiative as a "Customer for Life" strategy to leadership. Provided critical access to the C-suite and aligned the CDP with board-level revenue goals.
+    Focused on data residency and compliance (SOC2/GDPR). I secured approval by proving Segment's "Zero-Copy" architecture complemented their Snowflake investment.
   </Card>
-  <Card title="Coach" icon="compass">
+  <Card title="Champion" icon="person-running">
+    **CRM Manager (John-Paul Beeghly)**
+    
+    Co-authored the RFP requirements with me to ensure "Deterministic ID Resolution" and "Schema Enforcement" were weighted heavily against Salesforce.
+  </Card>
+  <Card title="Key Influencer" icon="database">
     **Director of Data Insights**
     
-    The "Data Source." Provided the operational baselines (web traffic, AOV, CTR) that made our \$7M value engineering model defensible and auditable.
+    The gatekeeper of operational data. We partnered on a 2-week "Value Discovery" to audit their conversion rates and engineering Opex.
   </Card>
 </CardGroup>
 
-<Warning>
-  **Detractor — Chord Commerce (Legacy Reseller)**
-  
-  The incumbent vendor was a Segment reseller. I neutralized this by surfacing that Chord was built on Segment as a dependency—meaning Sonos was paying a reseller margin for limited support. Once the champions understood they could get the core tech directly with full support for less, the evaluation moved to commercial logic.
-</Warning>
-
 ---
 
-## MEDDPICC
+## MEDDPICC Excellence
 
 <AccordionGroup>
-  <Accordion title="M — Metrics">
-    Built a **$7M total annual benefit** model using Sonos' own data:
-    - **$3.5M**: Website conversion/AOV lift (1% improvement across 3.8M monthly visitors).
-    - **$2.9M**: Email effectiveness (5% CTR lift via real-time personalization).
-    - **$323K**: Engineering savings (80% reduction in maintenance/ETL hours).
-    - **Payback Period**: < 6 months.
+  <Accordion title="M — Metrics (The $7.9M Business Case)">
+    Built a bottom-up financial model with the Value Engineering team:
+    - **$3.5M Website Lift:** 1% conversion/AOV improvement across 3.8M monthly visitors.
+    - **$2.9M Retention:** 5% increase in Email/Push CTR through real-time behavior triggers.
+    - **$231K Engineering Opex:** 80% reduction in manual ETL maintenance and API upkeep.
   </Accordion>
 
   <Accordion title="E — Economic Buyer">
-    **CIO**. Access was earned only after the value model was validated by the CRM team. He gave the final nod once we demonstrated "Zero-Copy" compatibility with Snowflake, ensuring Segment wouldn't create a second data silo.
+    **CCO & CIO**. Sequenced access by delivering a "Technical Validation Readout" first, which gave the champions the confidence to bring us in front of the C-suite for the Final RFP Presentation.
   </Accordion>
 
-  <Accordion title="D — Decision Criteria">
-    Criteria were shaped during discovery to favor Segment's strengths:
-    - **Warehouse-Native**: Must enhance Snowflake.
-    - **Real-Time ID Resolution**: Stitching anonymous and known IDs.
-    - **Self-Serve**: Marketing must build audiences without Engineering tickets.
-    - **Integrations**: 450+ native connectors (MC, Commerce Cloud, Facebook).
+  <Accordion title="D — Decision Criteria (Technical Prowess)">
+    I influenced the RFP to include "Warehouse-Native ID Syncing" and "Tracking Plan Enforcement" (Protocols). This neutralized Salesforce, whose ingestion "tax" and lack of native dbt integration were key technical gaps.
   </Accordion>
 
   <Accordion title="D — Decision Process">
-    5-month RFP-led evaluation:
-    - **Q3 2023**: Discovery and Value Engineering.
-    - **Nov 2023**: Finalist Demos and POC validation.
-    - **Nov 20, 2023**: Vendor of Choice selection.
-    - **Dec 1, 2023**: Contract execution aligned with Fiscal Year start.
+    5-month structured cycle: Outbound Discovery -> Value Engineering -> 6-Stakeholder Demo -> Final RFP Submission -> Executive Commercial Readout.
   </Accordion>
 
   <Accordion title="P — Paper Process">
-    - **Total Commitment**: $656,400.
-    - **Structure**: Bundled BCS and Premium+ Support to protect software ARR ($522K ACV).
-    - **Expansion**: Pre-negotiated 15M MTU growth path to signal long-term partnership.
+    Navigated a complex Japanese-headquartered legal review. Structured the contract with **Business Critical Services (BCS)** and **Jumpstart Services** to ensure a 90-day time-to-value, protecting the long-term ARR.
   </Accordion>
 
   <Accordion title="I — Identify Pain">
-    - **Growth Block**: 5.6M households were stuck on a single product due to lack of cross-sell data.
-    - **Batch Latency**: Personalization was batch-based, missing the "moment of truth" in-session.
-    - **AI Fragmentation**: Predictive models were running on stale, non-real-time data.
-  </Accordion>
-
-  <Accordion title="C — Champion">
-    **CRM Manager**. The "Internal Architect" who provided the transparency needed to defeat Salesforce and Chord.
-  </Accordion>
-
-  <Accordion title="C — Competition">
-    - **Salesforce CDP**: Lost due to high ingestion tax and reliance on generic industry benchmarks.
-    - **Chord Commerce**: Lost once their dependency on Segment was revealed, making direct ownership the only logical commercial choice.
+    "Data Blindness." Sonos couldn't see what users were doing in the App vs. Web, leading to irrelevant marketing. They were losing **$653K in unrealized revenue every quarter** due to this infrastructure delay.
   </Accordion>
 </AccordionGroup>
 
 ---
 
-## The Three Whys
+## Competitive Differentiation
 
-<CardGroup cols={3}>
-  <Card title="Why Anything" icon="circle-question">
-    Sonos could not execute its **$5B revenue mandate** for household expansion with siloed, batch-based data. The cost of inaction was **$653K per quarter** in unrealized conversion lift.
-  </Card>
-  <Card title="Why Segment" icon="circle-check">
-    The only platform offering **ID Resolution + Real-time Orchestration** while natively enhancing their **Snowflake** warehouse investment without the "Salesforce Tax."
-  </Card>
-  <Card title="Why Now" icon="clock">
-    **Fiscal Year-End** (Dec 1) and a concurrent **Braze implementation** created a hard technical dependency—Segment had to be the foundation for Braze to function.
-  </Card>
-</CardGroup>
+**The "Reseller Trap":** The biggest threat was Chord Commerce (a legacy reseller). I discovered they were running on an older version of Segment. I successfully argued for "Direct Ownership," proving that Sonos deserved a direct relationship with the Product and Engineering teams for a mission-critical platform, especially given their scale of 14M households.
 
 ---
 
-## Negotiation Tactics
+## Technical Validation (Proof of Concept)
 
-**Value Anchoring:** By validating the \$7M benefit with the CIO first, the \$656K price point was viewed as a 10:1 ROI rather than a cost.
-**ARR Protection:** Bundled Business Critical Services (BCS) and Premium Support into the total contract, allowing procurement to see one "package" while keeping the underlying software ACV healthy and undiscounted.
+Personally led the coordination of a multi-day technical workshop that validated:
+- **Identity Resolution:** Stitching anonymous web traffic to "Silent Listener" traits in the App.
+- **Reverse ETL:** Syncing propensity-to-churn scores from **Snowflake** back into **Braze** for immediate suppression.
+- **Functions:** Using custom code to route data into their proprietary internal support agent screens.
 
 ---
 
-## Result
+## Result & Impact
 
 <Note>
-  **$656,400 ARR.** Closed Dec 1, 2023. Established Segment as the real-time orchestration layer for 14M households and a board-level personalization mandate.
+**Status:** Closed Dec 2023. Segment is now the "Identity Engine" for Sonos globally.
+- **$656K ARR** (Net New Logo)
+- **100% Finalist Score** in Technical RFP
+- **Implementation:** On-track for H1 2024 Go-Live, unified across 28 regions.
 </Note>
